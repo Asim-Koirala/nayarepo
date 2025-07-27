@@ -1,7 +1,7 @@
 const Product = require("../models/product")
-const materials = require("../models/material");
-const metal = require("../models/metal");
-
+const Material = require('../models/material');
+const Metal = require('../models/metal');
+console.log("Hi")
 const createProduct = async (req, res) => {
   try {
     const { name, materials } = req.body;
